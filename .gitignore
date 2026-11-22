@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# System and editor files
+.DS_Store
+.vscode/
+
+# Local reports and unrelated downloaded installers
+output/
+Pulse-Codex-Reset-*.zip
