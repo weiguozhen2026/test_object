@@ -7,5 +7,5 @@ const dishes = [
 </script>
 
 <template>
-  <section id="menu" class="wrap"><div class="section-head"><h2 class="section-title"><small>SEASONAL MENU · 2026</small>这一季的暖心滋味</h2><p class="section-desc">把山野里刚刚好的新鲜带回餐桌，愿每一道菜，都让你感到被季节温柔款待。</p></div><div class="dishes"><article v-for="dish in dishes" :key="dish.name" class="dish"><div class="dish-image"><img :src="dish.image" :alt="dish.alt" /></div><div class="dish-caption"><div><h3>{{ dish.name }}</h3><p>{{ dish.ingredients }}</p></div><span class="price">{{ dish.price }}</span></div></article></div></section>
+  <section id="menu" class="wrap"><div class="section-head"><h2 class="section-title"><small>SEASONAL MENU · 2026</small>今天是个好日子</h2><p class="section-desc">哈哈哈哈哈</p></div><div class="dishes"><article v-for="dish in dishes" :key="dish.name" class="dish"><div class="dish-image"><img :src="dish.image" :alt="dish.alt" /></div><div class="dish-caption"><div><h3>{{ dish.name }}</h3><p>{{ dish.ingredients }}</p></div><span class="price">{{ dish.price }}</span></div></article></div></section>
 </template>
